@@ -7,6 +7,10 @@
 }
 
 /* shared style */
+.secondary-bg {
+    background-color: #FFF8F3
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -33,6 +37,21 @@
     padding: 18px 35px ;
     border-radius: 5px;
     border: 1px solid #FD6E0A;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*Nav Styles*/
@@ -98,4 +117,47 @@ nav li a {
 
 .banner-profile-pic {
     width: 580px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    color: #757575 ;
+}
+.item-description {
+    font-weight: bold;
+}
+
+/* skill section styles */
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
